@@ -2,7 +2,7 @@
 - In this repositroy I'll be sharing my whole web-devleopment journey. 
   So stay tuned with me.
 
-## WEB DEVELOPMENT
+## What is Web Development
 
 - Web development refers in general to the tasks associated with developing websites for hosting via intranet or internet.
 
