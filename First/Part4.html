@@ -8,16 +8,19 @@
 <body>
       <h2>HTML Forms</h2>
       <form action="hello.php">
+        <label for="name"> Name</label>
         <div>
-            Name : <input type="text" name="myName"> 
+            <input type="text" name="myName" id="name"> 
         </div>
         <br>
         <div>
-            Role : <input type="text" name="myRole"> 
+            <label for="Role">Role</label>
+            <input type="text" name="myRole" id="Role"> 
         </div>
         <br>
         <div>
-            Email : <input type="email" name="MyEmail"> 
+          <label for="email">Email</label>
+            <input type="email" name="MyEmail"id="email"> 
         </div>
         <br>
         <br>
@@ -26,17 +29,36 @@
         </div>
         <br>
         <div>
-            Bonus: <input type="number" name = "myBonus">
+            <label for="Bonus">Bonus</label>
+            <input type="number" name = "myBonus"id="Bonus">
         </div>
         <br>
         <div>
-            Click to tick mark : <input type="checkbox" name = "myTickMark">
+            <label for="check">Checkmark</label>
+           <input type="checkbox" name = "myTickMark"id="check">
         </div>
         <br>
         <div>
             Gender : <input type="radio" name="myGender">Male<input type="radio" name ="myGender">Female<input type="radio" name="myGender">other <!--If you're give same name in both radio box then you can only select only one box-->
         </div>
         <br>
+        <div>
+            Write something new <br><textarea name="myText" id="" cols="45" rows="20"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label for="Cars">Car</label>
+            <select name="myCar" id="car">
+             <option value="Select" selected>Click to Select</option>
+            <option value="Buggati">Buggati</option>
+            <option value="Tata">Tata Nexus</option>
+            <option value="Lamborghini">Lamborghini</option>
+            <option value="Thar">Thar</option>
+            <option value="Rolls Royce">Rolls Royce</option>
+        </select>
+        </div>
+          <br>
         <div>
              <input type="submit" Value="Submit Now ">
         </div>
