@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
 </head>
+
 <body>
-      <h2>HTML Forms</h2>
-      <form action="hello.php">
+    <h2>HTML Forms</h2>
+    <form action="hello.php">
         <label for="name"> Name</label>
         <div>
-            <input type="text" name="myName" id="name"> 
+            <input type="text" name="myName" id="name">
         </div>
         <br>
         <div>
             <label for="Role">Role</label>
-            <input type="text" name="myRole" id="Role"> 
+            <input type="text" name="myRole" id="Role">
         </div>
         <br>
         <div>
-          <label for="email">Email</label>
-            <input type="email" name="MyEmail"id="email"> 
+            <label for="email">Email</label>
+            <input type="email" name="MyEmail" id="email">
         </div>
         <br>
         <br>
         <div>
-            Date:  <input type="date" name ="myDate"> 
+            Date: <input type="date" name="myDate">
         </div>
         <br>
         <div>
             <label for="Bonus">Bonus</label>
-            <input type="number" name = "myBonus"id="Bonus">
+            <input type="number" name="myBonus" id="Bonus">
         </div>
         <br>
         <div>
             <label for="check">Checkmark</label>
-           <input type="checkbox" name = "myTickMark"id="check">
+            <input type="checkbox" name="myTickMark" id="check">
         </div>
         <br>
         <div>
-            Gender : <input type="radio" name="myGender">Male<input type="radio" name ="myGender">Female<input type="radio" name="myGender">other <!--If you're give same name in both radio box then you can only select only one box-->
+            Gender : <input type="radio" name="myGender">Male<input type="radio" name="myGender">Female<input
+                type="radio" name="myGender">other
+            <!--If you're give same name in both radio box then you can only select only one box-->
         </div>
         <br>
         <div>
@@ -48,24 +52,25 @@
         <br>
 
         <div>
-            <label for="Cars">Car</label>
+            <label for="Car">Cars</label>
             <select name="myCar" id="car">
-             <option value="Select" selected>Click to Select</option>
-            <option value="Buggati">Buggati</option>
-            <option value="Tata">Tata Nexus</option>
-            <option value="Lamborghini">Lamborghini</option>
-            <option value="Thar">Thar</option>
-            <option value="Rolls Royce">Rolls Royce</option>
-        </select>
-        </div>
-          <br>
-        <div>
-             <input type="submit" Value="Submit Now ">
+                <option value="Select" selected>Click to Select</option>
+                <option value="Buggati">Buggati</option>
+                <option value="Tata">Tata Nexus</option>
+                <option value="Lamborghini">Lamborghini</option>
+                <option value="Thar">Thar</option>
+                <option value="Rolls Royce">Rolls Royce</option>
+            </select>
         </div>
         <br>
         <div>
-           To Clear the form: <input type="reset" value="Reset Now">
+            <input type="submit" Value="Submit Now ">
+        </div>
+        <br>
+        <div>
+            To Clear the form: <input type="reset" value="Reset Now">
         </div>
     </form>
 </body>
+
 </html>
