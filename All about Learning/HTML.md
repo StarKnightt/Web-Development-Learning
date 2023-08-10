@@ -1,3 +1,6 @@
+# HTML (Hyper Text Markup Language)
+
+
 # MetaData
 
 - MetaData represents about the data
@@ -42,4 +45,33 @@
  - The head section contains meta-information about the page, such as the page title, character encoding, stylesheet etc.
  
  4. `<meta>`
-- This element 
+- This element provides metadata about HTML such as the page title, character encoding, stylesheets, scripts etc..
+
+ 5. `<title>`
+ - The `</title>` element sets the title of the Web Page, which appears in the broswer's title bar or tab.
+
+ 6. `<body>`
+ - The body section contains the visible content of Web Page.
+
+ 7. `<h1>`
+ - It is the most big heading and thsi goes according to `<h1>` to `<h6>` the more number of the heading increases the size of the letter on heading also decreases.
+
+8. `<p>` 
+- This is used to write a paragraph
+ 
+9. `Lorem`
+- By using this element we can produce dummy texts in our HTML page. 
+- ( In VS-Code you can use this `Lorem+(no.of dummy words)` and it will generate many dummy words according to your input ).
+
+10. `<Strong>`
+- It is used to make bold letters in Paragraphs. `<b>` is also used for it but "strong" tag is recommended for HTML 5.
+
+11. `<em>`
+- To make paragraph look something different like if we will use this tag and write something between this tag then it will be `Italic`.
+
+12. `<br>`
+- It is used to line break and it is a self opening and closing tag. By using this tag you can break the lines to write a line under another line.
+
+13. `<hr>`
+- By using this tags we can make ruler on the web page means it will make a horizontal line on your web page. It is also called as Horizontal Rule. 
+
