@@ -1,6 +1,5 @@
 # HTML (Hyper Text Markup Language)
 
-
 # MetaData
 
 - MetaData represents about the data
