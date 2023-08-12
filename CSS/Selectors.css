@@ -1,0 +1,24 @@
+p{
+    color:blue;
+}
+/* Id Selector */
+#Element{
+    color: indigo;
+}
+#superclass{
+    color:tomato;
+    background-color: gold;
+}
+#statics{
+    color: green;
+}
+/* class selector */
+.newClass{
+    color: tomato;
+}
+/* Grouping Selector */
+footer,span{
+    background-color: goldenrod;
+    color: white;
+}
+/* This is how you comment out in a Css file */
