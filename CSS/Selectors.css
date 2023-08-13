@@ -21,4 +21,7 @@ footer,span{
     background-color: goldenrod;
     color: white;
 }
+#Border{
+    border: 2px solid purple;
+}
 /* This is how you comment out in a Css file */
