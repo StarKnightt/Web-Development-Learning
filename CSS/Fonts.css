@@ -1,0 +1,19 @@
+p{
+    color: green;
+    font-family:'Dancing Script', cursive;
+    font-size: 20px;
+    line-height: 5.4em;
+    font-weight: bold;
+    font-style: oblique;
+}
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+#class {
+    font-size: 33;
+    font-weight: initial;
+    color: aqua;
+    font-family: cursive;
+}
+/* 1 inch = 96 pixel */
