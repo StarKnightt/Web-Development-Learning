@@ -1,0 +1,15 @@
+#Heading{
+    color: deepskyblue;
+    border: 2px solid green;
+}
+#ByName{
+    color: salmon; /* 1. Color by name */
+}
+#ByRGB{
+    color: rgb(85, 207, 29); /*2.Color by RGB, Basically you the amounts are - "red","green" and "blue" in the "rgb" section */
+}
+#HexColor{
+    /* Color by Hex-number */
+    color: #12eb66; /* light Green */
+    background-color: #1a1a1a
+}
