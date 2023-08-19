@@ -1,0 +1,46 @@
+/* How to Completely change the background image of a url */
+body {
+    background-image: url('https://iili.io/HbCoBpe.md.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#FirstPara{
+    color:  yellow;
+    background-color: red;
+    height: 100px;
+    width: 445px;
+    border-width: 4px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 12px;
+}
+#SecondPara{
+    color: blueviolet;
+    background-color: green;
+    height: 100px;
+    width: 445px;
+    border-width: 4px;
+    border-style: solid;
+    border-top: 2px dotted violet;       
+    border-right: 3px solid rgb(187, 11, 11);
+    border-bottom: 3px solid rgb(65, 13, 56);
+    border-top-left-radius: 34px;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 32px;
+    border-style: solid;
+    border-radius: 12px;
+}
+#ThirdPara{
+    height: 550px;
+    width: 500px;
+    background-image: url('https://iili.io/HbCd7xS.th.jpg');
+    border: 2px solid whitesmoke;
+    background-repeat: no-repeat; /* repeat-x and repeat-y will make it repeat on x and y axis */
+    background-position: center center;
+    /* background-position: 123px 134px; */
+    
+}
