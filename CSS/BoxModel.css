@@ -1,0 +1,18 @@
+.First{
+    background-color: rgb(233, 64, 64);
+    border: 5px solid rgb(0, 0, 0);
+    /* We can set padding as left,right,top,bottom */
+    /* padding: 19px;
+    padding-left: 78px;
+    padding-right: 23px;
+    padding-top: 33px;
+    padding-bottom: 56px; */
+
+    /* padding : 23px 5px 56px 78px; padding - top right bottom left; */
+
+    /* padding: y(top/bottom) x(left/right); */ /* to set top=bottom, and left=right. */
+    padding: 45px 23px;
+
+
+    margin: 34px;
+}
