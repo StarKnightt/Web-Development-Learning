@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.Container {
+    width: 900px;
+    border: 3px solid rgb(4, 15, 241);
+    margin: 33px auto;
+    background-color: greenyellow;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    margin: 23px auto;
+    width: 455px;
+}
+
+.item {
+    border: 3px solid grey;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color: rgb(250, 47, 11);
+}
+
+#fruit {
+    float: left;
+    width: 48%;
+}
+
+#Computer {
+    float: left;
+    width: 48%;
+}
+
+#Stationary {
+    /* float:left; */
+    clear: left;
+    width: 100%;
+}
+
+#Glasses {
+    /* float:left; */
+    clear: left;
+    width: 100%;
+}
+
+p,
+h1 {
+    /* text-align: right;
+    text-align: left;
+    text-align: center; */
+    text-align: justify;
+}
