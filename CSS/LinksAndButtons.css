@@ -1,0 +1,37 @@
+.container{
+    border: 2px solid red;
+    background-color: rgb(223, 245, 201);
+    padding: 34px;
+    margin: 34px auto;
+    width: 666px;
+}
+a{
+    text-decoration: none;
+    /* text-decoration: blink; */
+}
+a:hover{
+    color: rgb(220, 17, 220);
+    background-color: pink;
+} 
+a:visited{
+    background-color: yellow;
+}
+a:active{
+    background-color: darkblue;
+}
+.btn{
+    background-color: yellowgreen;
+    padding: 6px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 4px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.btn:hover{
+    color: darkgoldenrod;
+    background-color: brown;
+    border: 2px solid black;
+}
