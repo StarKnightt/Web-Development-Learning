@@ -14,7 +14,7 @@
 .navbar li a{
     padding: 3px 3px;
     text-decoration: none;
-    color: white;
+    color: white; 
 }
 .navbar li a:hover{
    color:green;
