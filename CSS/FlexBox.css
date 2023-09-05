@@ -1,0 +1,62 @@
+.container {
+    height: 344px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;  /* Intialize the container as a flex box */
+    
+    /* Flex properties for flex container */
+    flex-direction: row;  /* (Default value of direction is row) */
+  
+    /* flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+
+    /* flex-wrap: wrap;  Default value of flex-direction is no-wrap */
+    /* flex-wrap: wrap-reverse; */
+    
+    /* flex-flow: row-reverse wrap*/ /*This is a shrot hand for wrapping means we can use two properties of wrapping in one time., it is used for flex-flow and flex-wrap */
+    /* justify content will justify the content in horizontal dirction */
+    /* justify-content: center;  */
+    /* justify-content: space-between;   */
+    /* justify-content: space-evenly;    */
+    /* justify-content: space-around;  */
+
+   
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start;*/   /* It's the default one */
+    /* align-items: stretch;     */  
+}
+
+#item-1{
+     /* Flex properties for a flex item, The higher the order, later it shows up in the container */
+     order: 1;
+     /* flex-grow: 3; */
+}
+#item-2{
+   order: 2;
+   /* flex-grow: 2; */
+   /* flex-shrink: 2; */
+   /* flex-basis: 420px; */
+   /* when flex-direction is set to row flex-basis: will control width */
+   /* when flex-direction is set to column flex-basis: will control height */
+   align-self: flex-end;
+}
+#item-3{
+  /* flex: 2 2 320px; */
+  /* flex-shrink: 3; */
+  order: 3;
+  align-self: center;
+  align-self: flex-end;
+  align-self: flex-start;
+}
+
+
+.item {
+    width: 250px;
+    height: 150px;
+    background-color: tomato;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 3px;
+}
