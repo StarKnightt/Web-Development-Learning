@@ -1,0 +1,52 @@
+.container{
+    margin: 34px 23px;
+    display: block;
+    width: 233px;
+    margin: auto;
+}
+input{
+    display: block;
+}
+
+input[type='text']{
+    padding: 20px;
+    border: 2px solid red;
+}
+
+a[target]{
+    font-size: 24px;
+    color: blue;
+}
+
+a[target='_self']{
+    font-size: 14px;
+    color: green;
+}
+
+/* This will apply css for third child */
+/* li:nth-child(3){
+    color: cyan;
+}
+li:nth-child(2n+0){
+    color: red;
+} */
+
+li:nth-child(3n+3){
+    color: green;
+}
+
+/* Odd child */
+li:nth-child(odd){
+    background-color: rgb(56, 17, 227);
+}
+
+/* Even child */
+li:nth-child(even){
+    background-color: yellow;
+}
+
+input[type='email']{
+    color: darkmagenta ;
+    border: 4px solid aqua;
+}
+
