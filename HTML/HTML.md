@@ -72,6 +72,48 @@
 - It is used to line break and it is a self opening and closing tag. By using this tag you can break the lines to write a line under another line.
 
 13. `<hr>`
+- It means horizontal rule
 - By using this tags we can make ruler on the web page means it will make a horizontal line on your web page. It is also called as Horizontal Rule. 
 
-14. 
+14. `<a>`
+- It is called as Anchor tag.
+- It is used to create a Hyepr link on the web page in HTML.
+- `<a href="https://google.com" target="_blank"> Click to go to google </a>`
+- Point to be noted, here `<a>` - it's a tag. `href` - it's an attribute. 
+
+15. `target="_blank"`
+- It is a special keyword that will open link in a new tab everytime. 
+- It means by putting it after the `href ` it will open the link on a new tab, when you will click on it.
+
+16. `<img src ="(/Path of image, hosting img source)" alt ="loading">`
+- It is used to host an image on the website
+
+17. `alt ="loading" width ="1920" height ="1080">`
+- we can set the widht and height of the image after putting the image source, so that it should be flexible on web page.
+
+18. `<li>` 
+- It is used to represent an item in a list. But it must be contained in a parent element, like an ordered list `(<ol>)` , an unordered list `(<ul>)` or a menu `(<menu)>` .
+
+19. `<ul>`
+- It defines an unordered(bulleted) list.
+- Using `<ul>` tag together with `<li>` tag to create unordered list.
+
+  `<body>`
+     `<ul>`
+     `<li>`First sentence `</li>`
+     `<li>`Second Sentence `</li>`
+     `</ul>`
+     `<body>`
+
+20. `<ol>`
+- This tag defines an ordered list.
+- Same process repeat like `<ul>`
+
+    `<body>`
+     `<ol>`First sentence `</ol>`
+     `<ol>`Second Sentence `</ol>`
+     `<body>`
+
+## Attributes of `"</ul>"`
+
+- disc 
