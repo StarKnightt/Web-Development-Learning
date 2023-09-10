@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+}
+
+.card{
+    padding: 23px 12px;
+    margin: 23px 12px;
+    /* border: 2px solid red; */
+    background-color: #EBD3c5; 
+    /* box-shadow: h-offset v-offset blur spread color; */
+
+    /* box-shadow: 10px 13px green ; */
+    /* box-shadow: -10px -13px green ; */
+    /* box-shadow: 7px 5px 10px green; */
+     /* box-shadow: -2px -2px 4px 12px rgba(71, 172, 172, 0.5); */
+     box-shadow: inset 3px 5px royalblue,
+               20px 20px 4px green
+     ;
+}
+
+.card h2{
+    /* text-shadow: 2px 3px red; */
+    /* text-shadow: 2px 3px 2px yellow ; */
+    text-shadow: -4px -4px 2px yellow ;
+    /* Mostly used in pictures where text doesn't appear. */
+}
