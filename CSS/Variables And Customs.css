@@ -1,0 +1,26 @@
+:root{
+    --primary-color:blue;
+    --danger-color:red;
+    --maxw: 333px;
+}
+.box{
+    --box-color:violet;
+    width: 200px;
+    height: 200px;
+    background-color:  var(--primary-color);
+    border: 4px solid black;
+    box-shadow: 3px 3px var(--box-color);
+    margin: 2px 9px;
+}
+
+.container{
+    --box-color:violet;
+    max-width: var(--maxw);
+    margin: auto;
+    /* background-color: var(--box-color); */
+    background-color:var(--danger-color) ;
+    display: flex;
+    background-color: var(--danger-color);
+    align-items: center;
+    justify-content: center;
+}
