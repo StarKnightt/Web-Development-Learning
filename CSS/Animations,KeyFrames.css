@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    background-color: greenyellow;
+}
+
+/* .box {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: Prasen;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: alternate; */
+    /* animation: fadeIn 2s ease-in-out; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-delay: 1.5s; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-direction: reverse; */
+/* } */
+   
+.box {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: Prasen1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;  
+    /* These properties can be set using this shorthand */
+    /* animation: animation-name animation-duration animation-timing-funciton animation-delay  animation-iteration-count animation-fill-mode; */
+    /* animation: Prasen1 5s ease-in 1s 12 backwards ; */
+}
+
+/* @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  } */
+  
+  @keyframes Prasen1{
+    0%{
+      top: 0px;
+      left:0px;
+    }
+    25%{
+      top: 250px;
+      left: 0px;
+    }
+    75%{
+        top: 250px;
+        left: 250px;
+    }
+    100%{
+        left: 0;
+        top: 250px;
+    }
+  }
+@keyframes Prasen {
+    from {
+        width: 200px;
+    }
+    to {
+        width: 1000px;
+    }
+}
