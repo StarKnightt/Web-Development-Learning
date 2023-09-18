@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+}
+.box{
+    background: brown;
+    border: 2px solid red;
+    border-radius: 8px;
+    height: 400px;
+    width: 400px;
+}
