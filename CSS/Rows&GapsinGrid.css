@@ -1,0 +1,13 @@
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 5fr;
+    grid-auto-rows: 3fr;
+    /* grid-template-columns: 1fr 4fr 2fr; */
+    grid-template-columns: repeat(9, 2fr);
+    grid-gap: 1rem;
+}
+
+.box{
+    background-color: red;
+    border: 2px solid black;
+}
