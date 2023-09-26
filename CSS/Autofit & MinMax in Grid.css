@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* justify-content: center; */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* align-items: center; */
+}
+
+.box{
+    border: 2px solid black;
+    background-color: rgb(245, 187, 101);
+    padding: 19px;
+}
