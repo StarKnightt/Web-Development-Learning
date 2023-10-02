@@ -1,6 +1,4 @@
 # WEB DEVELOPMENT
-- In this repositroy I'll be sharing my whole web-devleopment journey.Learning from @CodeWithHarry
-  So stay tuned with me.
 
 ## What is Web Development
 
