@@ -18,3 +18,15 @@ let friends = ["Prasen", "Vishnu", "Krishna", "Maheswar","Ram"];
 //     console.log ("Hello Friend, " + Element + "to modern JavaScript again");
 // }
 
+let girls =["Lisa", "Jennie", "Rose", "Jisoo"];
+// for (let index = 0; index < girls.length; index++) {
+// console.log("Cute and beautiful girls are = " + girls [index]);    
+// }
+
+// girls.forEach(function f(element){
+//     console.log("hey cuties " + element + " in beautiful looks");
+// });
+
+for (Cutie of girls){
+    console.log( "Hey beautiful " + Cutie + " How are you?")
+}
