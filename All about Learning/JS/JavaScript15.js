@@ -11,7 +11,7 @@ console.log("The Value of SQRT2 is ",Math.SQRT2);
 console.log("The Value of Math.LOG10E is ", Math.LOG10E);
 
 // Printing the funcitons form math object
-let a = 34.64534;
+let a = 34.64534; 
 let b = 89;
 
 console.log("The value of a and b is ", a, b);
