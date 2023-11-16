@@ -1,8 +1,8 @@
 // console.log("Hello World");
-const http = require('http');
+const http = require('http');  // it's a module
 const hostname = '127.0.0.1';
 const port = 3000;
-const server = http.createServer((req, res) => {
+const server = http.createServer((req, res) => {  // it is a function used to create server, which takes two arguments req and res
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
 //   res.end('Hello World This is Prasenjit Nayak');
@@ -32,6 +32,6 @@ const server = http.createServer((req, res) => {
   </body>
   </html>`);
 });
-server.listen(port, hostname, () => {
+server.listen(port, hostname, () => {   // Listening on port which is created on above
   console.log(`Server running at http://${hostname}:${port}/`);
 });
