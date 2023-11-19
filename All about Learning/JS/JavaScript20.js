@@ -10,7 +10,6 @@ const server = http.createServer((req, res)=>{  // Creating Server with funciton
     res.writeHead(200, {'Conent-type':'text/html'}); // it is used to set the http response Headers
     res.end(fileContent); // It is used to send the response data to the client and finish the response
 })
-
 //  telling the server to start listening on port 80 of the local machine ('127.0.0.1')
 server.listen(80, '127.0.0.1', ()=> {
     console.log("Listening on port 80");
