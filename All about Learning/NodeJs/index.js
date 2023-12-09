@@ -9,7 +9,6 @@ const home = fs.readFileSync('D:\\Web-Development-Learning\\All about Learning\\
 const services = fs.readFileSync('D:\\Web-Development-Learning\\All about Learning\\NodeJs\\services.html');
 
 const port = 3000;
-
 const server = http.createServer((req,res)=>{
     console.log(req.url);
   const url = req.url;  // we need to store the url :)
@@ -32,8 +31,6 @@ const server = http.createServer((req,res)=>{
         res.end("<h1> 404 Error not found");
     }
 });
-
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
   });
-
