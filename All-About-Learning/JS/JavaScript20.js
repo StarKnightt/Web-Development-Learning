@@ -14,4 +14,3 @@ const server = http.createServer((req, res)=>{  // Creating Server with funciton
 server.listen(80, '127.0.0.1', ()=> {
     console.log("Listening on port 80");
 });
-

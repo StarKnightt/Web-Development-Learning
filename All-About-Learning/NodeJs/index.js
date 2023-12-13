@@ -3,10 +3,10 @@ const fs = require('fs');
 const { url } = require('inspector');
 
 const hostname = '127.0.0.1';
-const contact = fs.readFileSync('D:\\Web-Development-Learning\\All about Learning\\NodeJs\\home.html');
-const about = fs.readFileSync('D:\\Web-Development-Learning\\All about Learning\\NodeJs\\about.html');
-const home = fs.readFileSync('D:\\Web-Development-Learning\\All about Learning\\NodeJs\\index.html');
-const services = fs.readFileSync('D:\\Web-Development-Learning\\All about Learning\\NodeJs\\services.html');
+const contact = fs.readFileSync('D:\\Web-Development-Learning\\All-about-Learning\\NodeJs\\home.html');
+const about = fs.readFileSync('D:\\Web-Development-Learning\\All-about-Learning\\NodeJs\\about.html');
+const home = fs.readFileSync('D:\\Web-Development-Learning\\All-about-Learning\\NodeJs\\index.html');
+const services = fs.readFileSync('D:\\Web-Development-Learning\\All-about-Learning\\NodeJs\\services.html');
 
 const port = 3000;
 const server = http.createServer((req,res)=>{
