@@ -8,4 +8,10 @@ function average(arr) {
     return sum / arr.length;
 }
 
-module.exports = average;
+// module.exports = {  // This is object 
+//     avg: average,
+//     name: "Prasen",
+//     repo: "GitHub"
+// } 
+
+module.exports.name = "Prasen";
