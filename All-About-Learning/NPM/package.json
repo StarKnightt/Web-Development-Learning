@@ -1,0 +1,21 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "This is the best package ever built by software",
+  "main": "JavaScript21.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "Prasen",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "slugify": "~1.3.3"
+  },
+  "devDependencies": {
+    "nodemon": ">2.0.1"
+  }
+}
