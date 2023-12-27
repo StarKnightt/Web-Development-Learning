@@ -1,0 +1,14 @@
+{
+  "name": "starknight",
+  "version": "1.0.0",
+  "description": "This is a package we created while studying and exploring node and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prasenjit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
