@@ -1,14 +1,31 @@
 // importing the Express Module
 const express = require("express");
 
+//importing the path module, by using it we can set path and route the easily :D
+const path = require("path");
+
 // made an app using express
 const app = express();
 
 //want to run in port 80
-const port = 80;
+const port = 80; 
+
+// for serving static files
+app.use('/static', express.static('static'));  // Here "static is the directory folder name"
+
+// Set the template engine as pug
+app.set('view engine', 'pug');
+
+// set the views directory
+app.set('views', path.join(__dirname,'views'))
+
+// Our pug demo endpoint
+app.get('/demo', (req, res) => {
+    res.status(200).render('demo', { title: 'Hey Harish bhaiya', message: 'Hello there and thanks for telling me how to use Code!' })
+  });
 
 app.get("/",(req, res)=>{  // get request in '/' endpoint
-    res.send("this is my homepage with first express app writing with Harish bhaiaya");
+    res.send("This is my homepage with first express app writing with Harish bhaiaya");
 });
 
 // To send the status code
