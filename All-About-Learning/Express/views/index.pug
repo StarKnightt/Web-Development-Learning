@@ -6,14 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <title>Using plain html in pug</title> -->
     <title>#{title}</title>
+    style
+     include ../static/style.css
 </head>
-
 <body>
-    <h1>This is a heading</h1>
-    <p>
-        #{content}
-        <!-- this is a plain html using pug  -->
-    </p>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact Us</a></li>
+        </ul>
+    </nav>    
+    <div class="container">
+
+        <h2>Get this Gym Membership for 10$ only - Fill this form now</h2>
+        <form action="/" id="contact">
+            <input type="text" name="name" id="name" placeholder="Enter your Name">
+            <input type="age" name="name" id="name" placeholder="Enter your age">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea>
+            <textarea name="more" id="moer" cols="30" rows="10" placeholder="More About You..."></textarea>
+        </form>
+    </div>
 </body>
 
 </html>

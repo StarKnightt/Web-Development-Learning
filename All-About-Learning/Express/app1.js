@@ -15,9 +15,9 @@ app.set('views', path.join(__dirname, 'views')); // set the views directory
 
 // ENDPOINT
 app.get('/', (req, res) => {
-    // const con = "This is the best thing I'm learning";
-    // const param = { 'title': 'Pug is the best theme', "content": con };
-    res.status(200).render('index');
+    const con = "This is the best thing I'm learning";
+    const param = { 'title': 'Pug is the best theme', "content": con };
+    res.status(200).render('index',param);
 })
 
 
