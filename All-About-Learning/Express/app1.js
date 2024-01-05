@@ -20,6 +20,10 @@ app.get('/', (req, res) => {
     res.status(200).render('index',param);
 })
 
+app.post('/', (req,res)=>{
+    const param = { 'message': 'yes, its working' }; 
+    res.status(200).render('index',param);
+})
 
 app.listen(port, () => { // to listen the app on a port
     console.log(`The application started running successfully on the port ${port}`);
