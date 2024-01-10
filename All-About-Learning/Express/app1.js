@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended:true}))
 
 // PUG SPECIFIC STUFF
 app.set('view engine', 'pug'); // set the template engine as pug
-app.set('views', path.join(__dirname, 'views')); // set the views directory
+app.set('views', path.join(__dirname, 'views')); // set the views directoryk
 
 // ENDPOINT
 app.get('/', (req, res) => {
@@ -22,7 +22,6 @@ app.get('/', (req, res) => {
     const param = { 'title': 'Pug is the best theme', "content": con };
     res.status(200).render('index',param);
 })
-
 app.post('/', (req, res) => {
     // Extracting data from the request body
     const { name, age, address, more } = req.body;
