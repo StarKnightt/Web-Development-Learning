@@ -43,3 +43,4 @@ app.post('/', (req, res) => {
 app.listen(port, () => { // to listen the app on a port
     console.log(`The application started running successfully on the port ${port}`);
 });
+
