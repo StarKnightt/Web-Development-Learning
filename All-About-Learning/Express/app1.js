@@ -9,9 +9,7 @@ app.use('/static', express.static('static')); // for serving static files
 app.get('/static',(req,res)=>{
     res.status(200).sendFile('style.css');
 })
-
 app.use(express.urlencoded({extended:true}))
-
 // PUG SPECIFIC STUFF
 app.set('view engine', 'pug'); // set the template engine as pug
 app.set('views', path.join(__dirname, 'views')); // set the views directoryk
