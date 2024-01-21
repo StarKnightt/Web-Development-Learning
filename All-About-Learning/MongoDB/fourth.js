@@ -13,3 +13,5 @@ db.items.deleteOne({name:"Moto 30s"})
 
 // Delete multiple document
 db.items.deleteMany({qty:{$lt: 1}})
+
+//  MongoDB Compass is a Graphical User Interface (GUI) tool for MongoDB that allows us interact with our MongoDB Database.
