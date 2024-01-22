@@ -1,24 +1,24 @@
-// Step 1: Import the Mongoose library
-var mongoose = require('mongoose');
+import mongoose from "mongoose";
+import  express  from "express";
+import { Todo } from "./Model/Todo.js";
 
-// Step 2: Connect to the MongoDB database
-mongoose.connect('mongodb://localhost/prasen');
+let conn = await mongoose.connect("mongodb://localhost:27017/todo")
+const app = express()
+const port = 3000
 
-// Step 3: Get the default connection
-var db = mongoose.connection;
+app.get('/', (req, res) => {
+    const todo = new Todo({title: "Hey first todo", desc: "Description of this Todo", 
+    isDone: "false",days:Math.floor(Math.random()*45 + 5*Math.random())})
+    todo.save()
+    res.send('Hello World!')
+})
 
-// Step 4: Set up an error event listener
-db.on('error', console.error.bind(console, 'connection error:'));
+// app.get('/a', async (req, res) => {
+//    let todo = await Todo.findOne({})
+//    console.log("todo is running");
+//    res.json({title: todo.title, desc: todo.desc})
+// })
 
-// Step 5: Set up a once event listener for when the connection is open
-db.once('open', function () {
-    // Step 6: We're Connected
-    console.log("We are connected brother/sisters");
-
-    const kittySchema = new mongoose.Schema({
-        name: String
-    });
-
-    // Step 7: Close the connection (optional, depending on your use case)
-    // mongoose.connection.close();
-});
+app.listen(port, () => {
+  console.log(`Your server is running successfully ${port}`)
+})
