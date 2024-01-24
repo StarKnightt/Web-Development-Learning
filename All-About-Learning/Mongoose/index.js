@@ -4,7 +4,7 @@ import { Todo } from "./Model/Todo.js";
 
 let conn = await mongoose.connect("mongodb://localhost:27017/todo")
 const app = express()
-const port = 3000
+const port = 3000;
 
 app.get('/', (req, res) => {
     const todo = new Todo({title: "Hey first todo", desc: "Description of this Todo", 
@@ -12,7 +12,6 @@ app.get('/', (req, res) => {
     todo.save()
     res.send('Hello World!')
 })
-
 // app.get('/a', async (req, res) => {
 //    let todo = await Todo.findOne({})
 //    console.log("todo is running");
